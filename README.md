@@ -17,10 +17,7 @@ Esta tabela compara os tempos de execução estimados para diferentes algoritmos
 1. **Binary Search** e **Exponential Search** são eficientes para listas ordenadas.
 2. **Interpolation Search** funciona melhor com dados uniformemente distribuídos.
 3. **Jump Search** tem um desempenho inferior em listas muito grandes.
-.
 
-
-.
 # Análise de Complexidade de Algoritmos de Busca e Ordenação
 
 Este repositório apresenta a análise de complexidade de tempo e espaço de diversos algoritmos de busca e ordenação.
