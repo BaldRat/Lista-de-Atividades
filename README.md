@@ -1,4 +1,4 @@
-Algoritmos de ordenação e busca
+Pedro Ribeiro de Oliveira - Engenharia da Computação - 4º Semestre - Estrutura de Dados II - Algoritmos de ordenação e busca
 
 # Algoritmo de Busca Binária (Binary Search)
 
