@@ -87,6 +87,7 @@ Este repositório apresenta a análise de complexidade de tempo e espaço de div
 | **Exponential Search** | \( O(1) \)      | \( O(\log n) \)   | \( O(\log n) \)  | \( O(1) \)                       |
 | **Ternary Search**     | \( O(1) \)      | \( O(\log n) \)   | \( O(\log n) \)  | \( O(1) \) ou \( O(\log n) \) recursivo |
 
+
 ## Algoritmos de Ordenação
 
 | Algoritmo              | Melhor Tempo       | Médio Tempo       | Pior Tempo       | Espaço Extra |
