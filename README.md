@@ -110,6 +110,8 @@ O **Quick Sort** não é estável, pois ele pode alterar a ordem relativa de ele
 - **Não Estáveis**: Shell Sort, Selection Sort, Quick Sort
 
 
+![Gráfico](https://github.com/user-attachments/assets/c0a9ae79-37d0-427f-a022-449e81721612)
+
 Merge Sort e Quick Sort têm uma complexidade média de 
 𝑂
 (
