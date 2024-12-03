@@ -17,6 +17,13 @@ O Interpolation Search é mais eficiente que o Binary Search quando os dados est
 # Exponential Search (Jump Search + Binary Search)
 O Exponential Search começa verificando índices em saltos exponenciais (1, 2, 4, 8, 16, etc...) e, quando encontra um intervalo onde o elemento pode estar, usa o Binary Search para localizá-lo precisamente. Ele combina a rapidez do Jump Search com a precisão do Binary Search.
 
+# Shell Sort 
+A escolha da sequência de intervalos afeta a eficiência de algoritmos como o Shell Sort porque ela determina como os elementos serão comparados e trocados.
+
+- Shell (original): Usa intervalos fixos, mas os maiores intervalos no início ajudam a mover os elementos mais distantes rapidamente para suas posições corretas.
+- Knuth: Uma sequência mais eficiente que reduz gradualmente os intervalos de forma que o algoritmo tenha melhor desempenho para uma maior variedade de dados.
+- Hibbard: Outra sequência que melhora a eficiência em comparação com a original, ao usar intervalos de potências de 2, o que reduz a quantidade de operações de troca.
+
 # Tabela Comparativa de Tempos de Execução
 
 Esta tabela compara os tempos de execução estimados para diferentes algoritmos de busca em listas de tamanhos variados.
