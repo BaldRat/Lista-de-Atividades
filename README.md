@@ -112,7 +112,7 @@ O **Quick Sort** não é estável, pois ele pode alterar a ordem relativa de ele
 
 ![Gráfico](https://github.com/user-attachments/assets/c0a9ae79-37d0-427f-a022-449e81721612)
 
-Merge Sort e Quick Sort têm uma complexidade média de 
+- Merge Sort e Quick Sort têm uma complexidade média de 
 𝑂
 (
 𝑛
@@ -121,7 +121,8 @@ log
 𝑛
 )
 O(nlogn), o que resulta em uma curva mais suave e eficiente para tamanhos grandes de vetor.
-Selection Sort tem uma complexidade 
+
+- Selection Sort tem uma complexidade 
 𝑂
 (
 𝑛
