@@ -14,6 +14,8 @@ A busca começa no meio. Se o número procurado for 5, a busca verifica o meio e
 # Interpolation Search VS Binary Search
 O Interpolation Search é mais eficiente que o Binary Search quando os dados estão uniformemente distribuídos, pois estima melhor a posição do valor. O Binary Search é eficaz em qualquer distribuição.
 
+# Exponential Search (Jump Search + Binary Search)
+O Exponential Search começa verificando índices em saltos exponenciais (1, 2, 4, 8, 16, etc...) e, quando encontra um intervalo onde o elemento pode estar, usa o Binary Search para localizá-lo precisamente. Ele combina a rapidez do Jump Search com a precisão do Binary Search.
 
 # Tabela Comparativa de Tempos de Execução
 
