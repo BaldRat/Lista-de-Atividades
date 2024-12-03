@@ -1,5 +1,17 @@
 Algoritmos de ordenação e busca
 
+# Algoritmo de Busca Binária (Binary Search)
+
+A busca binária (Binary Search) depende de uma lista ordenada porque, ao dividir a lista em duas metades, ela assume que todos os elementos à esquerda de um ponto central são menores e todos os elementos à direita são maiores. Isso permite que a busca seja feita de forma eficiente, descartando metade da lista a cada comparação.
+
+Exemplo 1: Lista ordenada
+
+Lista: [1, 3, 5, 7, 9]
+
+A busca começa no meio. Se o número procurado for 5, a busca verifica o meio e encontra o número. Se for menor, a busca vai para a metade esquerda, se for maior, vai para a metade direita.
+
+
+
 # Tabela Comparativa de Tempos de Execução
 
 Esta tabela compara os tempos de execução estimados para diferentes algoritmos de busca em listas de tamanhos variados.
