@@ -83,7 +83,7 @@ Este repositório apresenta a análise de complexidade de tempo e espaço de div
 |------------------------|-----------------|-------------------|------------------|-----------------------------------|
 | **Binary Search**      | \( O(1) \)      | \( O(\log n) \)   | \( O(\log n) \)  | \( O(1) \) ou \( O(\log n) \) recursivo |
 | **Interpolation Search** | \( O(1) \)    | \( O(\log \log n) \) | \( O(n) \)      | \( O(1) \)                       |
-| **Jump Search**        | \( O(1) \)      | \( O(\sqrt{n}) \) | \( O(\sqrt{n}) \)| \( O(1) \)                       |
+| **Jump Search**        | \( O(1) \)      | \( O(√n) \) | \( O(√n) \)| \( O(1) \)                       |
 | **Exponential Search** | \( O(1) \)      | \( O(\log n) \)   | \( O(\log n) \)  | \( O(1) \)                       |
 | **Ternary Search**     | \( O(1) \)      | \( O(\log n) \)   | \( O(\log n) \)  | \( O(1) \) ou \( O(\log n) \) recursivo |
 
