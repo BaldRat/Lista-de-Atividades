@@ -11,6 +11,9 @@ Lista: [1, 3, 5, 7, 9]
 A busca começa no meio. Se o número procurado for 5, a busca verifica o meio e encontra o número. Se for menor, a busca vai para a metade esquerda, se for maior, vai para a metade direita. O que não aconteceria em uma lista desordenada.
 
 
+# Interpolation Search VS Binary Search
+O Interpolation Search é mais eficiente que o Binary Search quando os dados estão uniformemente distribuídos, pois estima melhor a posição do valor. O Binary Search é eficaz em qualquer distribuição.
+
 
 # Tabela Comparativa de Tempos de Execução
 
