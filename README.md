@@ -129,8 +129,7 @@ O(nlogn), o que resulta em uma curva mais suave e eficiente para tamanhos grande
 ^
 2
 )
-
- ), mostrando um crescimento muito mais acentuado à medida que o tamanho do vetor aumenta, tornando-o ineficiente para vetores grandes.
+, mostrando um crescimento muito mais acentuado à medida que o tamanho do vetor aumenta, tornando-o ineficiente para vetores grandes.
 
 ---
 
