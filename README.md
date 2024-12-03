@@ -59,7 +59,7 @@ O Ternary Search é mais eficiente que o Binary Search quando se busca o ponto d
 
 Esta tabela compara os tempos de execução estimados para diferentes algoritmos de busca em listas de tamanhos variados.
 
-| Tamanho da Lista (\( n \)) | Binary Search (\( O(\log n) \)) | Interpolation Search (\( O(\log \log n) \)) | Jump Search (\( O(\sqrt{n}) \)) | Exponential Search (\( O(\log n) \)) |
+| Tamanho da Lista (\( n \)) | Binary Search (\( O(log n) \)) | Interpolation Search (\( O(log log n) \)) | Jump Search (\( O((√n) \)) | Exponential Search (\( O(log n) \)) |
 |----------------------------|----------------------------------|---------------------------------------------|----------------------------------|---------------------------------------|
 | \( 10^2 \)                | 0.1 ms                          | 0.08 ms                                    | 0.5 ms                          | 0.1 ms                               |
 | \( 10^3 \)                | 0.15 ms                         | 0.1 ms                                     | 1.6 ms                          | 0.15 ms                              |
