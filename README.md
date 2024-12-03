@@ -51,6 +51,10 @@ Ordenação por cada dígito: O Radix Sort ordena os números inicialmente pelo 
 
 Uso de contagem: Para ordenar os números de acordo com cada dígito, o Radix Sort usa o Counting Sort, que é eficiente para números com um número limitado de dígitos, como 0-9 ou 0-1, dependendo da base.
 
+# Ternary Search VS Binary Search
+O Ternary Search é mais eficiente que o Binary Search quando se busca o ponto de máximo ou mínimo de uma função unimodal, pois divide o intervalo em três partes, enquanto o Binary Search divide em duas. Ambos têm complexidade O(log n), mas o Ternary pode ser mais útil para otimização de funções.
+
+
 # Tabela Comparativa de Tempos de Execução
 
 Esta tabela compara os tempos de execução estimados para diferentes algoritmos de busca em listas de tamanhos variados.
