@@ -40,6 +40,17 @@ Ordenação interna: Cada balde é ordenado individualmente, geralmente usando u
 
 Coleta: Os elementos de todos os baldes são recolhidos de volta, agora em ordem.
 
+# Radix Sort (Bases)
+O Radix Sort é um algoritmo de ordenação que lida com bases diferentes, como base 10 (decimal) e base 2 (binária), processando os números dígito por dígito, da menor para a maior ordem.
+
+Aqui está como ele lida com bases diferentes de forma simples:
+
+Divisão em dígitos: O algoritmo considera cada número como uma sequência de dígitos. No caso da base 10, os dígitos são de 0 a 9, enquanto na base 2 são 0 e 1.
+
+Ordenação por cada dígito: O Radix Sort ordena os números inicialmente pelo dígito menos significativo (à direita). Em seguida, repete o processo para os próximos dígitos, até que todos os dígitos tenham sido considerados.
+
+Uso de contagem: Para ordenar os números de acordo com cada dígito, o Radix Sort usa o Counting Sort, que é eficiente para números com um número limitado de dígitos, como 0-9 ou 0-1, dependendo da base.
+
 # Tabela Comparativa de Tempos de Execução
 
 Esta tabela compara os tempos de execução estimados para diferentes algoritmos de busca em listas de tamanhos variados.
