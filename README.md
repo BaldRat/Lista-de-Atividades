@@ -48,6 +48,9 @@ Este repositório apresenta a análise de complexidade de tempo e espaço de div
 - **\( k \)**: Número de buckets ou base (no caso de Radix Sort).
 - **\( d \)**: Número de dígitos no maior número (para Radix Sort).
 
+
+  
+
 # Algoritmos de Ordenação e Estabilidade
 
 ## Estabilidade em Algoritmos de Ordenação
@@ -108,6 +111,8 @@ O **Quick Sort** não é estável, pois ele pode alterar a ordem relativa de ele
 
 - **Estáveis**: Merge Sort, Bucket Sort (geralmente), Radix Sort
 - **Não Estáveis**: Shell Sort, Selection Sort, Quick Sort
+
+
 
 
 ![Gráfico](https://github.com/user-attachments/assets/c0a9ae79-37d0-427f-a022-449e81721612)
