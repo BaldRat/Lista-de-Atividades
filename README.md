@@ -24,6 +24,13 @@ A escolha da sequência de intervalos afeta a eficiência de algoritmos como o S
 - Knuth: Uma sequência mais eficiente que reduz gradualmente os intervalos de forma que o algoritmo tenha melhor desempenho para uma maior variedade de dados.
 - Hibbard: Outra sequência que melhora a eficiência em comparação com a original, ao usar intervalos de potências de 2, o que reduz a quantidade de operações de troca.
 
+# Merge Sort: "dividir para conquistar" 
+O conceito de "dividir para conquistar" no algoritmo Merge Sort é simples: ele divide o problema em partes menores, resolve essas partes de forma independente e depois as combina para obter a solução final.
+
+- Dividir: O algoritmo divide a lista ou array em duas metades.
+- Conquistar: Recursivamente, ele ordena essas metades até que cada sublista tenha apenas um elemento (que já está ordenado por definição).
+- Combinar: Depois, as sublistas ordenadas são combinadas de forma ordenada, até que toda a lista esteja ordenada.
+
 # Tabela Comparativa de Tempos de Execução
 
 Esta tabela compara os tempos de execução estimados para diferentes algoritmos de busca em listas de tamanhos variados.
