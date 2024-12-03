@@ -81,23 +81,23 @@ Este repositório apresenta a análise de complexidade de tempo e espaço de div
 
 | Algoritmo              | Melhor Tempo    | Médio Tempo       | Pior Tempo       | Espaço Extra                     |
 |------------------------|-----------------|-------------------|------------------|-----------------------------------|
-| **Binary Search**      | \( O(1) \)      | \( O(\log n) \)   | \( O(\log n) \)  | \( O(1) \) ou \( O(\log n) \) recursivo |
-| **Interpolation Search** | \( O(1) \)    | \( O(\log \log n) \) | \( O(n) \)      | \( O(1) \)                       |
+| **Binary Search**      | \( O(1) \)      | \( O(log n) \)   | \( O(log n) \)  | \( O(1) \) ou \( O(log n) \) recursivo |
+| **Interpolation Search** | \( O(1) \)    | \( O(log log n) \) | \( O(n) \)      | \( O(1) \)                       |
 | **Jump Search**        | \( O(1) \)      | \( O(√n) \) | \( O(√n) \)| \( O(1) \)                       |
-| **Exponential Search** | \( O(1) \)      | \( O(\log n) \)   | \( O(\log n) \)  | \( O(1) \)                       |
-| **Ternary Search**     | \( O(1) \)      | \( O(\log n) \)   | \( O(\log n) \)  | \( O(1) \) ou \( O(\log n) \) recursivo |
+| **Exponential Search** | \( O(1) \)      | \( O(log n) \)   | \( O(log n) \)  | \( O(1) \)                       |
+| **Ternary Search**     | \( O(1) \)      | \( O(log n) \)   | \( O(log n) \)  | \( O(1) \) ou \( O(log n) \) recursivo |
 
 
 ## Algoritmos de Ordenação
 
 | Algoritmo              | Melhor Tempo       | Médio Tempo       | Pior Tempo       | Espaço Extra |
 |------------------------|--------------------|-------------------|------------------|--------------|
-| **Shell Sort**         | \( O(n \log n) \)  | \( O(n^{3/2}) \)  | \( O(n^2) \)     | \( O(1) \)   |
-| **Merge Sort**         | \( O(n \log n) \)  | \( O(n \log n) \) | \( O(n \log n) \)| \( O(n) \)   |
+| **Shell Sort**         | \( O(n log n) \)  | \( O(n^{3/2}) \)  | \( O(n^2) \)     | \( O(1) \)   |
+| **Merge Sort**         | \( O(n log n) \)  | \( O(n log n) \) | \( O(n log n) \)| \( O(n) \)   |
 | **Selection Sort**     | \( O(n^2) \)       | \( O(n^2) \)      | \( O(n^2) \)     | \( O(1) \)   |
 | **Bucket Sort**        | \( O(n + k) \)     | \( O(n + k) \)    | \( O(n^2) \)     | \( O(n + k) \) |
 | **Radix Sort**         | \( O(d(n + k)) \)  | \( O(d(n + k)) \) | \( O(d(n + k)) \)| \( O(n + k) \) |
-| **Quick Sort**         | \( O(n \log n) \)  | \( O(n \log n) \) | \( O(n^2) \)     | \( O(\log n) \) |
+| **Quick Sort**         | \( O(n log n) \)  | \( O(n log n) \) | \( O(n^2) \)     | \( O(log n) \) |
 
 ## Notas
 - **\( n \)**: Número de elementos no array.
