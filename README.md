@@ -48,8 +48,67 @@ Este repositório apresenta a análise de complexidade de tempo e espaço de div
 - **\( k \)**: Número de buckets ou base (no caso de Radix Sort).
 - **\( d \)**: Número de dígitos no maior número (para Radix Sort).
 
-### Sugestões de Melhorias
-Contribuições são bem-vindas! Se você encontrar algum erro ou quiser sugerir otimizações, sinta-se à vontade para abrir uma _issue_ ou enviar um _pull request_.
+# Algoritmos de Ordenação e Estabilidade
+
+## Estabilidade em Algoritmos de Ordenação
+
+Um algoritmo de ordenação é considerado **estável** se, ao ordenar elementos com valores iguais, a ordem original desses elementos for mantida.
+
+## Análise dos Algoritmos
+
+### 1. **Shell Sort**: Não estável
+O **Shell Sort** não é estável porque pode alterar a ordem relativa de elementos iguais durante a ordenação, ao realizar trocas com intervalos variáveis.
+
+**Exemplo**:
+- Lista original: `[3a, 1, 3b]`
+- Após ordenação com Shell Sort: `[1, 3b, 3a]`  
+  (A ordem de `3a` e `3b` foi alterada.)
+
+### 2. **Merge Sort**: Estável
+O **Merge Sort** é estável, pois durante a fusão dos elementos, ele mantém a ordem dos elementos iguais conforme estavam originalmente.
+
+**Exemplo**:
+- Lista original: `[3a, 1, 3b]`
+- Após ordenação com Merge Sort: `[1, 3a, 3b]`  
+  (A ordem de `3a` e `3b` foi mantida.)
+
+### 3. **Selection Sort**: Não estável
+O **Selection Sort** não é estável, pois pode trocar a ordem de elementos iguais durante o processo de seleção.
+
+**Exemplo**:
+- Lista original: `[3a, 1, 3b]`
+- Após ordenação com Selection Sort: `[1, 3b, 3a]`  
+  (A ordem de `3a` e `3b` foi alterada.)
+
+### 4. **Bucket Sort**: Estável
+O **Bucket Sort** pode ser estável dependendo da implementação. Normalmente, ele utiliza um algoritmo estável (como o **Insertion Sort**) para ordenar os itens dentro dos "buckets".
+
+**Exemplo**:
+- Lista original: `[3a, 1, 3b]`
+- Após ordenação com Bucket Sort: `[1, 3a, 3b]`  
+  (A ordem de `3a` e `3b` foi mantida.)
+
+### 5. **Radix Sort**: Estável
+O **Radix Sort** é estável, pois ele processa cada dígito em ordem, mantendo a ordem relativa dos elementos durante cada passagem.
+
+**Exemplo**:
+- Lista original: `[3a, 1, 3b]`
+- Após ordenação com Radix Sort: `[1, 3a, 3b]`  
+  (A ordem de `3a` e `3b` foi mantida.)
+
+### 6. **Quick Sort**: Não estável
+O **Quick Sort** não é estável, pois ele pode alterar a ordem relativa de elementos iguais durante o processo de partição.
+
+**Exemplo**:
+- Lista original: `[3a, 1, 3b]`
+- Após ordenação com Quick Sort: `[1, 3b, 3a]`  
+  (A ordem de `3a` e `3b` foi alterada.)
+
+## Resumo
+
+- **Estáveis**: Merge Sort, Bucket Sort (geralmente), Radix Sort
+- **Não Estáveis**: Shell Sort, Selection Sort, Quick Sort
+
 
 ---
 
