@@ -17,10 +17,10 @@ Esta tabela compara os tempos de execução estimados para diferentes algoritmos
 1. **Binary Search** e **Exponential Search** são eficientes para listas ordenadas.
 2. **Interpolation Search** funciona melhor com dados uniformemente distribuídos.
 3. **Jump Search** tem um desempenho inferior em listas muito grandes.
-
-
-
-
+‎‎‎‎‎‎‎‎ㅤ
+‎‎‎‎‎‎‎‎ㅤ
+‎‎‎‎‎‎‎‎ㅤ
+‎‎‎‎‎‎‎‎ㅤ
 # Análise de Complexidade de Algoritmos de Busca e Ordenação
 
 Este repositório apresenta a análise de complexidade de tempo e espaço de diversos algoritmos de busca e ordenação.
@@ -50,10 +50,10 @@ Este repositório apresenta a análise de complexidade de tempo e espaço de div
 - **\( n \)**: Número de elementos no array.
 - **\( k \)**: Número de buckets ou base (no caso de Radix Sort).
 - **\( d \)**: Número de dígitos no maior número (para Radix Sort).
-
-
-  
-
+‎‎‎‎‎‎‎‎ㅤ
+‎‎‎‎‎‎‎‎ㅤ
+ ‎‎‎‎‎‎‎‎ㅤ 
+‎‎‎‎‎‎‎‎ㅤ
 # Algoritmos de Ordenação e Estabilidade
 
 ## Estabilidade em Algoritmos de Ordenação
@@ -114,10 +114,10 @@ O **Quick Sort** não é estável, pois ele pode alterar a ordem relativa de ele
 
 - **Estáveis**: Merge Sort, Bucket Sort (geralmente), Radix Sort
 - **Não Estáveis**: Shell Sort, Selection Sort, Quick Sort
-
-
-
-
+‎‎‎‎‎‎‎‎ㅤ
+‎‎‎‎‎‎‎‎ㅤ
+‎‎‎‎‎‎‎‎ㅤ
+‎‎‎‎‎‎‎‎ㅤ
 ![Gráfico](https://github.com/user-attachments/assets/c0a9ae79-37d0-427f-a022-449e81721612)
 
 - **Merge Sort** e **Quick Sort** têm uma complexidade média de 
