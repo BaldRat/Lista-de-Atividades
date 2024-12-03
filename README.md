@@ -110,6 +110,25 @@ O **Quick Sort** não é estável, pois ele pode alterar a ordem relativa de ele
 - **Não Estáveis**: Shell Sort, Selection Sort, Quick Sort
 
 
+Merge Sort e Quick Sort têm uma complexidade média de 
+𝑂
+(
+𝑛
+log
+⁡
+𝑛
+)
+O(nlogn), o que resulta em uma curva mais suave e eficiente para tamanhos grandes de vetor.
+Selection Sort tem uma complexidade 
+𝑂
+(
+𝑛
+2
+)
+O(n 
+2
+ ), mostrando um crescimento muito mais acentuado à medida que o tamanho do vetor aumenta, tornando-o ineficiente para vetores grandes.
+
 ---
 
 ## Licença
