@@ -31,6 +31,15 @@ O conceito de "dividir para conquistar" no algoritmo Merge Sort é simples: ele 
 - Conquistar: Recursivamente, ele ordena essas metades até que cada sublista tenha apenas um elemento (que já está ordenado por definição).
 - Combinar: Depois, as sublistas ordenadas são combinadas de forma ordenada, até que toda a lista esteja ordenada.
 
+# Bucket Sort 
+O Bucket Sort funciona da seguinte maneira:
+
+Distribuição: Os elementos são distribuídos em "baldes" (buckets) com base em seu valor. Cada balde representa um intervalo de valores.
+
+Ordenação interna: Cada balde é ordenado individualmente, geralmente usando um algoritmo simples como a ordenação por inserção, já que os elementos dentro de cada balde tendem a ser poucos e próximos em valor.
+
+Coleta: Os elementos de todos os baldes são recolhidos de volta, agora em ordem.
+
 # Tabela Comparativa de Tempos de Execução
 
 Esta tabela compara os tempos de execução estimados para diferentes algoritmos de busca em listas de tamanhos variados.
